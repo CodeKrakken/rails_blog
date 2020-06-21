@@ -7,6 +7,18 @@ class CommentsController < ApplicationController
 
   def edit
     @article = Article.find(params[:id])
+    @comment = @article.comments.find(params[:article_id])
+  end
+
+  def update
+    @article = Article.find(params[:id])
+    @comment = @article.comments.find(params[:article_id])
+
+    if @comment.update(comment_params)
+      redirect_to @comment
+    else
+      render 'edit'
+    end
   end
 
   def destroy
