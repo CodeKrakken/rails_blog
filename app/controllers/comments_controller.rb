@@ -5,9 +5,13 @@ class CommentsController < ApplicationController
     redirect_to article_path(@article)
   end
 
+  def edit
+    @article = Article.find(params[:id])
+  end
+
   def destroy
-    @article = Article.find(params[:article_id])
-    @comment = @article.comments.find(params[:id])
+    @article = Article.find(params[:id])
+    @comment = @article.comments.find(params[:article_id])
     @comment.destroy
     redirect_to article_path(@article)
   end
