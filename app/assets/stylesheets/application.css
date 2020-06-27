@@ -16,7 +16,7 @@
 
 body { 
   font-family: 'PT Mono', monospace;
-  /* background-image: url("welcome.jpg"); */
+  background-image: url("background.jpg");
   background-size: 100%;
 }
 
