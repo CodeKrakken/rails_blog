@@ -2,16 +2,17 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.wrapper {
-  width: 300px;
-  height: 300px;
-  border: thin solid black;
+#wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center
 }
 
-.link {
-  width: 300px;
+#button {
   margin: auto auto;
   text-align: center
 }
