@@ -16,16 +16,16 @@
 
 body { 
   font-family: 'PT Mono', monospace;
-  background-image: url("welcome.jpg");
+  /* background-image: url("welcome.jpg"); */
   background-size: 100%;
 }
 
 .wrapper {
   position: absolute;
-  top: 18%;
-  bottom: 40.5%;
-  left: 37%;
-  right: 34%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: center;
 }
@@ -33,5 +33,4 @@ body {
 .content {
   margin: auto;
   text-align: center;
-  position: relative;
 }
