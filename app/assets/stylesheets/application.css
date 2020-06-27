@@ -14,6 +14,6 @@
  *= require_self
  */
 
- body { 
-   font-family: monospace;
- }
+body { 
+  font-family: 'PT Mono', monospace;
+}

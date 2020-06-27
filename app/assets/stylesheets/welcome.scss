@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+
 #wrapper {
   position: absolute;
   top: 0;
@@ -9,10 +10,12 @@
   left: 0;
   right: 0;
   display: flex;
-  justify-content: center
+  justify-content: center;
+  background-image: url("welcome.jpg");
+  background-size: 100%;
 }
 
 #button {
-  margin: auto auto;
+  margin: 36vh;
   text-align: center
 }
