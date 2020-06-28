@@ -1,16 +1,19 @@
 <div class="wrapper">
   <div class="content">
     <div id="index-grid">
+
       <% @articles.each do |article| %>
+
         <b class="grid-item"><%= article.title %></b>
         <%= link_to 'Read', article_path(article) %>
-      <% end %>
-    </div>
 
-    <div class="wrapper">
-      <div id="write-link">
-        <%= link_to 'Write Article', new_article_path %>
-      </div>
+      <% end %>
+
     </div>
   </div>
+
+  <div id="write-link">
+    <%= link_to 'Write Article', new_article_path %>
+  </div>
 </div>
+

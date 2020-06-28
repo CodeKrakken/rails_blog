@@ -12,14 +12,11 @@
 }
 
 #write-link {
-  text-align: center;
   position: fixed;
   top: 90%
 }
 
-#index-grid { 
-  display: grid;
-  grid-template: 9fr 1fr / 9fr 1fr;
+#articles-list {
   border: 1px solid black;
 }
 
