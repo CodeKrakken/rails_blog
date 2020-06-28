@@ -30,7 +30,4 @@ body {
   justify-content: center;
 }
 
-.content {
-  margin: auto;
-  text-align: center;
-}
+.content { margin: auto }
