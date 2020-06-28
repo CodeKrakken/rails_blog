@@ -2,9 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-#title {
-  font-size: 500%;
-}
+#title { font-size: 500%; }
 
 .underline {
   border: 1px solid black;
@@ -16,8 +14,10 @@
   top: 90%
 }
 
-#articles-list {
-  border: 1px solid black;
-}
+#articles-list { border: 1px solid black; }
 
 .grid-item { text-align: left }
+
+#author { 
+  font-size: 200%;
+}
