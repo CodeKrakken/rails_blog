@@ -2,7 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-#title { font-size: 500%; }
+#title { 
+  font-size: 500%;
+  text-align: center
+ }
 
 .underline {
   border: 1px solid black;
