@@ -4,7 +4,6 @@
 
       <% @articles.each do |article| %>
 
-        <div class="grid-item"><%= article.author %></b>
         <b class="grid-item"><%= article.title %></b>
         <div class="grid-item"><%= link_to 'Read', article_path(article) %></div>
 
